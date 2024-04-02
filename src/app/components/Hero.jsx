@@ -12,6 +12,10 @@ const Hero = () => {
                 <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
                     I am a full-time IT Technician working in Managed Services for my local Government. In my downtime from work I am currently working on a Software as a Service, commonly known as a SaaS, which will offer a range of features to help streamline and optimise potential client's needs for websites and e-commerce stores/sites to keep the client in control and happy!
                 </p>
+                <div>
+                    <button className="px-6 py-3 rounded-full mr-4 bg-white hover:bg-slate-200 text-black">Button 1</button>
+                    <button className="px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">Button 2</button>
+                </div>
             </div>
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                 <div className="bg-[#181818] lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative">
