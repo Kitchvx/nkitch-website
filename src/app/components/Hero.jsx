@@ -10,11 +10,11 @@ const Hero = () => {
                     Hi, I'm Nathan
                 </h1>
                 <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                    IT Technician, Web Developer and Soon to be Cybersecurity Technician. 
+                    IT Technician, Web Developer and Soon to be Cybersecurity Technician.
                 </p>
                 <div>
-                    <button className="px-6 py-3 rounded-full mr-4 bg-white hover:bg-slate-200 text-black">Button 1</button>
-                    <button className="px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">Button 2</button>
+                    <button className="px-6 py-3 rounded-full mr-4 bg-white hover:bg-slate-200 text-black">Contact Me</button>
+                    <button className="px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">GitHub</button>
                 </div>
             </div>
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
