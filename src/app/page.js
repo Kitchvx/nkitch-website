@@ -1,4 +1,3 @@
-<script src="http://localhost:8097"></script>
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 
