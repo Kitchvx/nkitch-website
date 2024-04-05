@@ -32,14 +32,14 @@ const Hero = () => {
                 </p>
                 <div>
                     
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-indigo-500 to-red-600 hover:bg-slate-200 text-white'>
+                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-indigo-500 to-red-600 hover:bg-slate-200 text-white hover:text-black'>
                         <span>
                             Contact Me
                         </span>
                     </button>
 
                     <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-indigo-500 to-red-600 hover:bg-slate-200 text-white mt-3'>
-                        <span className='block bg-[#121212] hover:bg-[#181818] rounded-full px-5 py-2'>
+                        <span className='block bg-[#121212] hover:bg-[#242424] rounded-full px-5 py-2'>
                             See My GitHub
                         </span>
                     </button>
