@@ -32,7 +32,7 @@ const Hero = () => {
                 </p>
                 <div>
                     
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-indigo-500 to-red-600 hover:bg-slate-200 text-white hover:text-black'>
+                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-indigo-500 to-red-600 hover:bg-slate-200 text-white hover:from-indigo-600 hover:to-red-700'>
                         <span>
                             Contact Me
                         </span>
