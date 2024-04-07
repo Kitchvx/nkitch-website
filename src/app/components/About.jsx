@@ -48,7 +48,7 @@ const tab_DATA = [
 ]
 
 const About = () => {
-  const [tab, setTab] = useState('skills');
+  const [tab, setTab] = useState('experience');
   const [Pending, sTransition] = useTransition();
 
   const handleTabSwitch = (id) => {
@@ -60,22 +60,22 @@ const About = () => {
     <section className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image
-          src='/images/about.png'
+          src='/images/about.jpg'
           alt='about.png_500x500'
           width={500}
           height={500}
         />
-        <div>
+        <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-            I am deeply passionate and enthusiastic about my work, which drives my motivation and determination. In my spare time, away from work, I have taken the time to learn more about web development as I have taken a keen and strong interest in this field. Currently working as an IT Technician I soon aim to get into the Cybersecurity Industry. I enjoy creating interactive and resposive web applications, I am currently learning JavaScript, Node.js and React. My knowledge already includes working with Git, HTML, CSS and working in GNU/Linux enviroments, deploying and maintaining web servers. My day-to-day job includes working with Windows Server, Active Directory/Azure Active Directory (AD/AAD respectively), Microsoft Intune and many other Microsoft On-premise and Cloud-based endpoint management tools/solutions.
+            I am deeply passionate and enthusiastic about my work, which drives my motivation and determination. In my spare time, away from work, I have taken the time to learn more about web development as I have taken a keen and strong interest in this field. Currently working as an IT Technician I soon aim to get into the Cybersecurity Industry. I enjoy creating interactive and resposive web applications.
           </p>
-          <div className='flex flex-row justify-start mt-8'>
+          <div className='flex flex-row justify-start mt-6'>
             <Tabs selectTab={()  =>  handleTabSwitch('skills')} active={tab === 'skills'}>Skills</Tabs>
-            <Tabs selectTab={()  =>  handleTabSwitch('Experience')} active={tab === 'Experience'}>Experience</Tabs>
-            <Tabs selectTab={()  =>  handleTabSwitch('Certifications')} active={tab === 'Certifications'}>Certifications</Tabs>
-            <div className='mt-8'>{tab_DATA.find((t) => t.id === tab).desc}</div>
+            <Tabs selectTab={()  =>  handleTabSwitch('experience')} active={tab === 'experience'}>Experience</Tabs>
+            <Tabs selectTab={()  =>  handleTabSwitch('certifications')} active={tab === 'certifications'}>Certifications</Tabs>
           </div>
+          <div className='mt-4'>{tab_DATA.find((t) => t.id === tab).desc}</div>
         </div>
       </div>
     </section>
