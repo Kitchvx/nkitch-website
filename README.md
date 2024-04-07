@@ -9,7 +9,18 @@ First Clone the repo:
 git clone https://github.com/Kitchvx/nkitch-website.git
 ```
 
-cd into it and run the development server:
+cd into it and edit `next.confiig.mjs` and comment out `output: 'export',`:
+
+```
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    //output: 'export',
+};
+
+export default nextConfig;
+```
+
+Save and run the development server:
 
 ```bash
 npm run dev
