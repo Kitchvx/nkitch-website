@@ -8,7 +8,10 @@ First Clone the repo:
 ```
 git clone https://github.com/Kitchvx/nkitch-website.git
 ```
-
+cd into it and install dependencies:
+```
+npm install
+```
 cd into it and edit `next.confiig.mjs` and comment out `output: 'export',`:
 
 ```
