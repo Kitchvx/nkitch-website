@@ -9,7 +9,7 @@ First Clone the repo:
 git clone https://github.com/Kitchvx/nkitch-website.git
 ```
 cd into it and install dependencies:
-```
+```bash
 npm install
 ```
 cd into it and edit `next.confiig.mjs` and comment out `output: 'export',`:
@@ -27,12 +27,6 @@ Save and run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
