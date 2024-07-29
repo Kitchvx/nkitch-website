@@ -8,12 +8,13 @@ First Clone the repo:
 ```
 git clone https://github.com/Kitchvx/nkitch-website.git
 ```
+
 cd into it and install dependencies:
 ```bash
 npm install
 ```
-cd into it and edit `next.confiig.mjs` and comment out `output: 'export',`:
 
+cd into it and edit `next.confiig.mjs` and comment out `output: 'export',`:
 ```
 /** @type {import('next').NextConfig} */
 const nextConfig = {
