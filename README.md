@@ -8,7 +8,15 @@ First Clone the repo:
 ```
 git clone https://github.com/Kitchvx/nkitch-website.git
 ```
+<<<<<<< Updated upstream
 
+=======
+cd into it and install dependencies:
+
+```bash
+npm install
+```
+>>>>>>> Stashed changes
 cd into it and edit `next.confiig.mjs` and comment out `output: 'export',`:
 
 ```
