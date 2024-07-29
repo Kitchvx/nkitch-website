@@ -8,7 +8,7 @@ const tab_DATA = [
     title:'Skills',
     id:'skills',
     desc: (
-    <ul>
+    <ul className='list-disc pl-2'>
       <li>Team Work</li>
       <li>Critical Thinking</li>
       <li>HTML</li>
@@ -27,7 +27,7 @@ const tab_DATA = [
     title:'Experience',
     id:'experience',
     desc: (
-    <ul>
+    <ul className='list-disc pl-2'>
       <li>Hartlepool College of Further Education</li>
       <li>Modern IT Apprentice at NEC Software Solutions</li>
       <li>Website Developer at a Local Business</li>
@@ -38,9 +38,9 @@ const tab_DATA = [
     title:'Certifications',
     id:'certifications',
     desc: (
-    <ul>
-      <li>Microsoft Cloud Fundamentals: Administering Office 365 and Intune</li>
-      <li>Cybersecurity Foundations</li>
+    <ul className='list-disc pl-2'>
+      <li><a href='https://www.linkedin.com/learning/certificates/8ea9114130c1223a80a89d81456148c2c3197b85cfba60f4ce265992626515a9'>Microsoft Cloud Fundamentals: Administering Office 365 and Intune</a></li>
+      <li><a href="https://www.linkedin.com/learning/certificates/a929848ee6bfabe63871eb40baa10fb1a8ba82d56cdc80b72f91153fd356473f?accountId=84863210&u=84863210&success=true&authUUID=yf274LeXTgiEbRZoeXwfng%3D%3D">Cybersecurity Foundations</a></li>
       <li>Networking Fundamentals</li>
     </ul>
     )
@@ -48,7 +48,7 @@ const tab_DATA = [
 ]
 
 const About = () => {
-  const [tab, setTab] = useState('experience');
+  const [tab, setTab] = useState('skills');
   const [Pending, sTransition] = useTransition();
 
   const handleTabSwitch = (id) => {
