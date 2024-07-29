@@ -17,10 +17,12 @@ const Hero = () => {
                         sequence={[
                             'Nathan',
                             1000,
+                            'An IT Technician',
+                            1000,
                             'A Web Developer',
                             1000,
-                            'An IT Technician',
-                            1000
+                            'A Homelabber',
+                            1000,
                         ]}
                         wrapper="span"
                         speed={50}
@@ -28,7 +30,7 @@ const Hero = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 textl-lg lg:text-xl'>
-                    IT Technician, Web Developer and Soon to be Cybersecurity Technician.
+                    IT Solutions Technician, part time Web Developer and Cybersecurity and Homelabber enthusiast.
                 </p>
                 <div>
                     
@@ -49,7 +51,7 @@ const Hero = () => {
             <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
                 <div className='bg-[#181818] lg:w-[300px] lg:h-[300px] w-[250px] h-[250px] rounded-full relative'>
                     <Image
-                    src='/images/hero.jpg'
+                    src='/images/hero.png'
                     alt='hero.png_300x300'
                     className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                     width={300}
